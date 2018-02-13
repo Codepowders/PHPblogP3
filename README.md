@@ -16,9 +16,11 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
 [W5-002]
 
-
+   
 [W5-003]
 
+   1. Configured the post page in the adminpanel with the database
+   2. Script is working and changing the original post. Try at: http://jorritbreeuwer.nl/Blog/admin/index.php and edit.
    
 [W5-004]
 
