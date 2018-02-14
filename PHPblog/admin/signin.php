@@ -1,3 +1,26 @@
+<?php 
+
+session_start();
+
+include_once "includes/config.php";
+include_once "includes/db.php";
+
+
+if(isset($_POST['login'])){
+    $email = mysqli_real_escape_string  ($db ,$_POST['email']);
+    $password = mysqli_real_escape_string  ($db ,$_POST['password']);
+    
+    $query = "SELECT * FROM admin WHERE email = '$email' AND password = '$password' ";
+    
+    
+    $result = $db->query($query);
+    if($result->num_rows > 0) {
+        header("Location: index.php");
+        $_SESSION['email'] = $email;
+   }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,16 +37,19 @@
 </head>
 
 <body>
+    
+    
+    
+    
 
-<!-- /container -->
 <div class="container">
-    <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
+    <form class="form-signin" method="POST">
+        <h2 class="form-signin-heading">sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" name="login" type="submit">Sign in</button>
       </form>
 </div>
 
