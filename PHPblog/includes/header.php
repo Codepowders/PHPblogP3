@@ -5,7 +5,7 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-<body>
+  <body>
 
 <!-- Select the categories in the database -->
 <?php
@@ -19,7 +19,8 @@
 <div class="container">
 <nav class="blog-nav">
   <a class="blog-nav-item active" href="index.php">Home</a>
-  <a class="blog-nav-item active" href="createpost.php">Post article!</a>
+  <a class="blog-nav-item active" href="createpost.php">Post</a>
+  <a class="blog-nav-item active" href="subscribe/index.php">subscribe/login</a>
 <?php if($categories->num_rows > 0) {
       while($row = $categories->fetch_assoc() ) { ?>
   <a class="blog-nav-item" href="index.php?category=<?php echo $row ['id']; ?>"> <?php echo $row ['text']; ?></a>
