@@ -41,6 +41,8 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
 [W5-007]
 
+   1. Password can be reset. http://jorritbreeuwer.nl/Blog/subscribe/login.php click forgot and u will get a mail with the instructions.
+
 [W5-008]
 
    
