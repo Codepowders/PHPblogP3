@@ -12,7 +12,8 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
    1. The html form for search is embedded inside sidebar.php in the folder includes.
    2. Keywords are added to the database on every Article.
-   3. The results are now visable when the keywords are used. http://jorritbreeuwer.nl/Blog/results.php(JAVA, PHP, JAVASCRIPT)
+   3. The results are now visable when the keywords are used. http://jorritbreeuwer.nl/Blog/results.php 
+   Keywords: (JAVA, PHP, JAVASCRIPT)
 
 [W5-002]
 
