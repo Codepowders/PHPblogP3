@@ -8,6 +8,8 @@ Website: https://JorritBreeuwer.nl/Blog
 
 Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
+Users subscribe: http://jorritbreeuwer.nl/Blog/subscribe/
+
 [W5-001]
 
    1. The html form for search is embedded inside sidebar.php in the folder includes.
