@@ -37,6 +37,8 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
 [W5-006]
 
+   1. Password is secured. Made a validation script for the users with a unique token and pass secure with MD5 hash.
+
 [W5-007]
 
 [W5-008]
