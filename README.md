@@ -17,6 +17,10 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
 [W5-002]
 
+   1. made a loginscript for admin http://jorritbreeuwer.nl/Blog/admin/signin.php  hoi@gmail.com pass=123
+   2. New articles can be made by the admin http://jorritbreeuwer.nl/Blog/admin/new_post.php
+   3. Inserted a script that wil put a new post into the database
+
    
 [W5-003]
 
@@ -28,6 +32,8 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
 [W5-005]
 
+   1. The register form is added to the Blogpage.
+   2. Users can now register and login http://jorritbreeuwer.nl/Blog/index.php click subscribe/login
 
 [W5-006]
 
