@@ -12,7 +12,7 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 
    1. The html form for search is embedded inside sidebar.php in the folder includes.
    2. Keywords are added to the database on every Article.
-   3. The results are now visable when the keywords are us. http://jorritbreeuwer.nl/Blog/results.php
+   3. The results are now visable when the keywords are used. http://jorritbreeuwer.nl/Blog/results.php(JAVA, PHP, JAVASCRIPT)
 
 [W5-002]
 
@@ -20,7 +20,7 @@ Admin panel: https://JorritBreeuwer.nl/Blog/admin
 [W5-003]
 
    1. Configured the post page in the adminpanel with the database
-   2. Script is working and changing the original post. Try at: http://jorritbreeuwer.nl/Blog/admin/index.php and edit...
+   2. Script is working and changing the original post. Try at: http://jorritbreeuwer.nl/Blog/admin/index.php and edit.
    
 [W5-004]
 
