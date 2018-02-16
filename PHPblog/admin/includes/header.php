@@ -4,19 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
 
     <title>Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet">
 
-   
 
     <!-- Custom styles for this template -->
     <link href="../css/dashboard.css" rel="stylesheet">
-
-    
+  
   </head>
 
   <body>
@@ -37,7 +34,7 @@
             <li><a href="index.php">Dashboard</a></li>
             <li><a href="logout.php">Logout</a></li>
           </ul>
-          
+
         </div>
       </div>
     </nav>

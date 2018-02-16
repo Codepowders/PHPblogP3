@@ -1,4 +1,4 @@
-<?php 
+<?php
    include("includes/header.php");
    include("includes/config.php");
    include("includes/db.php");
@@ -89,7 +89,6 @@
                 <tr>
                   <th>Name</th>
                   <th>Comment</th>
-
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -112,7 +111,6 @@
                 <tr>
                   <th>ID</th>
                   <th>Title</th>
-
                   <th>Actions</th>
                 </tr>
               </thead>

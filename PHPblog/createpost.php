@@ -13,6 +13,8 @@
     <input type="checkbox" name="category" value="1"> JAVA
     <input type="checkbox" name="category" value="2"> PHP
     <input type="checkbox" name="category" value="3"> CSS
+    <input type="checkbox" name="category" value="4"> HTML
+    <input type="checkbox" name="category" value="5"> JS
     <hr>
     <input type="text" name="title" placeholder="title">
     <br>
@@ -29,23 +31,3 @@
     <input type="submit" name="insert" value="insert">
 </form>
 </div>
-
-<script>
-shortcuts = {
-    "cg" : "CodeGorilla",
-    "js" : "Javascript",
-    "www" : "world wide web" }
-
-window.onload = function() {
-    var ta = document.getElementById("createbody");
-    var timer = 0;
-    var re = new RegExp("\\b(" + Object.keys(shortcuts).join("|") + ")\\b", "g");
-
-    update = function() {
-        ta.value = ta.value.replace(re, function($0, $1) {
-            return shortcuts[$1.toLowerCase()]; }); }
-
-    ta.onkeydown = function() {
-        clearTimeout(timer);
-        timer = setTimeout(update, 200); } }
-</script>

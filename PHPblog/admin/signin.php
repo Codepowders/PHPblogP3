@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 session_start();
 
@@ -9,10 +9,10 @@ include_once "includes/db.php";
 if(isset($_POST['login'])){
     $email = mysqli_real_escape_string  ($db ,$_POST['email']);
     $password = mysqli_real_escape_string  ($db ,$_POST['password']);
-    
+
     $query = "SELECT * FROM admin WHERE email = '$email' AND password = '$password' ";
-    
-    
+
+
     $result = $db->query($query);
     if($result->num_rows > 0) {
         header("Location: index.php");
@@ -37,10 +37,7 @@ if(isset($_POST['login'])){
 </head>
 
 <body>
-    
-    
-    
-    
+
 
 <div class="container">
     <form class="form-signin" method="POST">

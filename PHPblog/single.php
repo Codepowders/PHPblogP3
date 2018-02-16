@@ -53,29 +53,9 @@
     <textarea cols="60" rows="10" name="comment" id="shortcuts" class="form-control"></textarea>
 </div>
 
-<!-- Script that embed shortcuts in the textarea -->
-<script>
-shortcuts = {
-    "cg" : "CodeGorilla",
-    "js" : "Javascript",
-    "www" : "world wide web"}
 
-window.onload = function() {
-    var ta = document.getElementById("shortcuts");
-    var timer = 0;
-    var re = new RegExp("\\b(" + Object.keys(shortcuts).join("|") + ")\\b", "g");
-
-    update = function() {
-        ta.value = ta.value.replace(re, function($0, $1) {
-            return shortcuts[$1.toLowerCase()]; }); }
-
-    ta.onkeydown = function() {
-        clearTimeout(timer);
-        timer = setTimeout(update, 200); } }
-</script>
-
-  <button type="submit" name="post_comment" class="btn">post comment <span>is Cool.</span></button>
-  </form><br><br><hr>
+<button type="submit" name="post_comment" class="btn">post comment <span>is Cool.</span></button>
+</form><br><br><hr>
 
 <?php  while($comment = $comments->fetch_assoc()) { if($comment['is_admin'] != 1) { ?>
 
