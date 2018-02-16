@@ -13,9 +13,3 @@
 			?>
 		</h1>
 	</div>
-
-
-
-
-
-<?php include("includes/footer.php") ?>

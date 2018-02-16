@@ -5,8 +5,8 @@
 		redirect("admin.php");
 	}
  ?>
-	<?php include("includes/nav.php") ?>
 
+<?php include("includes/nav.php") ?>
 
 
 	<div class="row">
@@ -71,4 +71,3 @@
 			</div>
 
 		</div>
-<?php include("includes/footer.php") ?>
